@@ -1,0 +1,16 @@
+{
+  "name": "@example/root",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm run --recursive --aggregate-output --sequential build",
+    "dev": "pnpm run --recursive --parallel dev",
+    "dev:turbo": "pnpm run --recursive --parallel dev:turbo",
+    "lint": "pnpm run --recursive --aggregate-output --sequential lint",
+    "start": "pnpm run --recursive --parallel start"
+  }
+}
